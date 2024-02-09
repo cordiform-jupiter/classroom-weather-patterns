@@ -27,7 +27,7 @@
 
     &lt;script&gt;
         async function startSmileDetection() {
-            const model = await tmImage.load(&#39;/Users/emily/Desktop/tm-my-image-model/model.json&#39;, &#39;/Users/emily/Desktop/tm-my-image-model/metadata.json&#39;);
+            const model = await tmImage.load('https://github.com/cordiform-jupiter/classroom-weather-patterns/blob/be0786e6229d8e58bf7d3811b87c98da05178f81/model.json', 'https://github.com/cordiform-jupiter/classroom-weather-patterns/blob/be0786e6229d8e58bf7d3811b87c98da05178f81/metadata.json');
 
             const video = document.getElementById(&#39;video&#39;);
             const canvas = document.getElementById(&#39;canvas&#39;);
